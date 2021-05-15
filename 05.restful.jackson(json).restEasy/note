@@ -1,0 +1,7 @@
+Burada bir nesne yani jsonın elementleri belli bir json dosyası döndürdük 
+elementlerini ise User pojosunda otomatik oluşturdu.Contructor yoluyla.
+
+Ayrıca bu projede rest easy kullandım
+	
+Fakat elementleri belli olmayan,elementlerini manuel olarak verebileceğimiz
+Json dosyalı rest apiyi  04.2 dersinde yaptım.

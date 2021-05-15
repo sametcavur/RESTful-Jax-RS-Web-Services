@@ -1,0 +1,18 @@
+Burada bir nesne yani xml elementleri belli bir xml dosyası döndürdük 
+elementlerini ise User pojosunda otomatik oluşturdu.Contructor yoluyla.
+
+Ayrıca bu projede rest easy kullandım
+	
+Fakat elementleri belli olmayan,elementlerini manuel olarak verebileceğimiz
+Xml dosyalı rest apiyi  04 dersinde yaptım.
+
+services paketinin altındaki UserServices classında ise url'den çektiğimiz xml'i okuma 
+yani java consolede yazdırma,yada javada kullanıma açma işlemi yaptık.
+
+Ayrıca pojolardaki Xml Root Element,Xml element yada üstte bahsettiğim UserServices'teki JAXB yani
+Url'deki xml i parçalayıp java'da kullanabilme özelliklerini vs. alttaki dependency ile yaptım.
+	<dependency>
+			<groupId>org.jboss.resteasy</groupId>
+			<artifactId>resteasy-jaxb-provider</artifactId>
+			<version>4.0.0.Beta1</version>
+	</dependency>

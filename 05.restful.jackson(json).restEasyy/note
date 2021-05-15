@@ -1,0 +1,22 @@
+Burada bir nesne yani json elementleri belli bir json dosyasý döndürdük 
+elementlerini ise User pojosunda otomatik oluþturdu.Contructor yoluyla.
+Ayrýca bunun jaxb versiyonunu yaparken(03.Ders) User pojosunda
+xml elementlerini,root elementi falan anotasyon yoluyla belirtmiþtik
+Fakat json çýktýsý alýrken yada yollarken pojoya herhangi bir anotasyon ile element
+belirlememize gerek kalmýyorç
+
+Ayrýca bu projede rest easy kullandým
+	
+Fakat elementleri belli olmayan,elementlerini manuel olarak verebileceðimiz
+Json dosyalý rest apiyi  06 dersinde yaptým.
+
+services paketinin altýndaki UserServices classýnda ise url'den çektiðimiz json'u okuma 
+yani java consolede yazdýrma,yada javada kullanýma açma iþlemi yaptýk.
+
+Ayrýca bu UserServices altýnda url'deki jsonu parçalayýp javada kullanabilmek için alttaki 
+dependency i kullandým.
+	<dependency>
+			<groupId>com.googlecode.json-simple</groupId>
+			<artifactId>json-simple</artifactId>
+			<version>1.1.1</version>
+	</dependency>
